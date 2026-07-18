@@ -1,0 +1,383 @@
+{
+  "products": {
+    "smartphones": [
+      {
+        "id": 1,
+        "name": "iPhone 15 Pro Max",
+        "price": 1199.99,
+        "rating": 4.8,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300",
+        "brand": "Apple",
+        "category": "smartphones",
+        "inStock": true
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 1099.99,
+        "rating": 4.7,
+        "reviews": 189,
+        "image": "https://images.unsplash.com/photo-1610945265064-0e34e3b1f0f6?w=300",
+        "brand": "Samsung",
+        "category": "smartphones",
+        "inStock": true
+      },
+      {
+        "id": 3,
+        "name": "Google Pixel 8 Pro",
+        "price": 999.99,
+        "rating": 4.6,
+        "reviews": 156,
+        "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=300",
+        "brand": "Google",
+        "category": "smartphones",
+        "inStock": true
+      },
+      {
+        "id": 4,
+        "name": "OnePlus 12",
+        "price": 899.99,
+        "rating": 4.5,
+        "reviews": 134,
+        "image": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=300",
+        "brand": "OnePlus",
+        "category": "smartphones",
+        "inStock": false
+      }
+    ],
+    "laptops": [
+      {
+        "id": 5,
+        "name": "MacBook Pro 16\"",
+        "price": 2499.99,
+        "rating": 4.9,
+        "reviews": 312,
+        "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=300",
+        "brand": "Apple",
+        "category": "laptops",
+        "inStock": true
+      },
+      {
+        "id": 6,
+        "name": "Dell XPS 16",
+        "price": 1899.99,
+        "rating": 4.7,
+        "reviews": 245,
+        "image": "https://images.unsplash.com/photo-1593642702821-0f4d4e6b6c8c?w=300",
+        "brand": "Dell",
+        "category": "laptops",
+        "inStock": true
+      },
+      {
+        "id": 7,
+        "name": "ASUS ROG Zephyrus",
+        "price": 2199.99,
+        "rating": 4.8,
+        "reviews": 178,
+        "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=300",
+        "brand": "ASUS",
+        "category": "laptops",
+        "inStock": true
+      },
+      {
+        "id": 8,
+        "name": "Lenovo ThinkPad X1",
+        "price": 1599.99,
+        "rating": 4.6,
+        "reviews": 203,
+        "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=300",
+        "brand": "Lenovo",
+        "category": "laptops",
+        "inStock": false
+      }
+    ],
+    "audio": [
+      {
+        "id": 9,
+        "name": "Sony WH-1000XM5",
+        "price": 399.99,
+        "rating": 4.9,
+        "reviews": 456,
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300",
+        "brand": "Sony",
+        "category": "audio",
+        "inStock": true
+      },
+      {
+        "id": 10,
+        "name": "Bose QuietComfort Ultra",
+        "price": 429.99,
+        "rating": 4.8,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300",
+        "brand": "Bose",
+        "category": "audio",
+        "inStock": true
+      },
+      {
+        "id": 11,
+        "name": "Apple AirPods Pro 2",
+        "price": 249.99,
+        "rating": 4.7,
+        "reviews": 567,
+        "image": "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?w=300",
+        "brand": "Apple",
+        "category": "audio",
+        "inStock": true
+      },
+      {
+        "id": 12,
+        "name": "Sennheiser Momentum 4",
+        "price": 349.99,
+        "rating": 4.6,
+        "reviews": 189,
+        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=300",
+        "brand": "Sennheiser",
+        "category": "audio",
+        "inStock": false
+      }
+    ],
+    "wearables": [
+      {
+        "id": 13,
+        "name": "Apple Watch Ultra 2",
+        "price": 799.99,
+        "rating": 4.8,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300",
+        "brand": "Apple",
+        "category": "wearables",
+        "inStock": true
+      },
+      {
+        "id": 14,
+        "name": "Samsung Galaxy Watch 6",
+        "price": 399.99,
+        "rating": 4.6,
+        "reviews": 178,
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=300",
+        "brand": "Samsung",
+        "category": "wearables",
+        "inStock": true
+      },
+      {
+        "id": 15,
+        "name": "Fitbit Charge 6",
+        "price": 159.99,
+        "rating": 4.4,
+        "reviews": 345,
+        "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=300",
+        "brand": "Fitbit",
+        "category": "wearables",
+        "inStock": true
+      },
+      {
+        "id": 16,
+        "name": "Meta Quest 3",
+        "price": 649.99,
+        "rating": 4.7,
+        "reviews": 123,
+        "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=300",
+        "brand": "Meta",
+        "category": "wearables",
+        "inStock": true
+      }
+    ],
+    "gaming": [
+      {
+        "id": 17,
+        "name": "PlayStation 5",
+        "price": 499.99,
+        "rating": 4.9,
+        "reviews": 789,
+        "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=300",
+        "brand": "Sony",
+        "category": "gaming",
+        "inStock": true
+      },
+      {
+        "id": 18,
+        "name": "Xbox Series X",
+        "price": 499.99,
+        "rating": 4.8,
+        "reviews": 567,
+        "image": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=300",
+        "brand": "Microsoft",
+        "category": "gaming",
+        "inStock": true
+      },
+      {
+        "id": 19,
+        "name": "Nintendo Switch OLED",
+        "price": 349.99,
+        "rating": 4.7,
+        "reviews": 456,
+        "image": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=300",
+        "brand": "Nintendo",
+        "category": "gaming",
+        "inStock": true
+      },
+      {
+        "id": 20,
+        "name": "Steam Deck OLED",
+        "price": 549.99,
+        "rating": 4.6,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=300",
+        "brand": "Valve",
+        "category": "gaming",
+        "inStock": false
+      }
+    ],
+    "tv": [
+      {
+        "id": 21,
+        "name": "Samsung QLED 65\"",
+        "price": 1599.99,
+        "rating": 4.8,
+        "reviews": 345,
+        "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=300",
+        "brand": "Samsung",
+        "category": "tv",
+        "inStock": true
+      },
+      {
+        "id": 22,
+        "name": "LG OLED 77\"",
+        "price": 2499.99,
+        "rating": 4.9,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=300",
+        "brand": "LG",
+        "category": "tv",
+        "inStock": true
+      },
+      {
+        "id": 23,
+        "name": "Sony Bravia XR 55\"",
+        "price": 1399.99,
+        "rating": 4.7,
+        "reviews": 178,
+        "image": "https://images.unsplash.com/photo-1542372147193-a7aca5f2d847?w=300",
+        "brand": "Sony",
+        "category": "tv",
+        "inStock": true
+      },
+      {
+        "id": 24,
+        "name": "TCL 6-Series 75\"",
+        "price": 999.99,
+        "rating": 4.5,
+        "reviews": 456,
+        "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=300",
+        "brand": "TCL",
+        "category": "tv",
+        "inStock": false
+      }
+    ],
+    "cameras": [
+      {
+        "id": 25,
+        "name": "Sony Alpha A7 IV",
+        "price": 2499.99,
+        "rating": 4.9,
+        "reviews": 189,
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300",
+        "brand": "Sony",
+        "category": "cameras",
+        "inStock": true
+      },
+      {
+        "id": 26,
+        "name": "Canon EOS R6 Mark II",
+        "price": 2299.99,
+        "rating": 4.8,
+        "reviews": 156,
+        "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=300",
+        "brand": "Canon",
+        "category": "cameras",
+        "inStock": true
+      },
+      {
+        "id": 27,
+        "name": "Nikon Z8",
+        "price": 3499.99,
+        "rating": 4.9,
+        "reviews": 123,
+        "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=300",
+        "brand": "Nikon",
+        "category": "cameras",
+        "inStock": true
+      },
+      {
+        "id": 28,
+        "name": "GoPro Hero 12 Black",
+        "price": 399.99,
+        "rating": 4.6,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300",
+        "brand": "GoPro",
+        "category": "cameras",
+        "inStock": true
+      }
+    ],
+    "components": [
+      {
+        "id": 29,
+        "name": "Intel Core i9-14900K",
+        "price": 589.99,
+        "rating": 4.8,
+        "reviews": 234,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb5ea?w=300",
+        "brand": "Intel",
+        "category": "components",
+        "inStock": true
+      },
+      {
+        "id": 30,
+        "name": "NVIDIA RTX 4090",
+        "price": 1599.99,
+        "rating": 4.9,
+        "reviews": 345,
+        "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=300",
+        "brand": "NVIDIA",
+        "category": "components",
+        "inStock": true
+      },
+      {
+        "id": 31,
+        "name": "ASUS ROG Maximus Z790",
+        "price": 599.99,
+        "rating": 4.7,
+        "reviews": 178,
+        "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=300",
+        "brand": "ASUS",
+        "category": "components",
+        "inStock": true
+      },
+      {
+        "id": 32,
+        "name": "Corsair Dominator DDR5 32GB",
+        "price": 199.99,
+        "rating": 4.6,
+        "reviews": 456,
+        "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=300",
+        "brand": "Corsair",
+        "category": "components",
+        "inStock": false
+      },
+      {
+        "id": 33,
+        "name": "Corsair Dominator DDR5 32GB",
+        "price": 199.99,
+        "rating": 4.6,
+        "reviews": 456,
+        "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=300",
+        "brand": "Corsair",
+        "category": "components",
+        "inStock": false
+      }
+    ]
+  }
+}

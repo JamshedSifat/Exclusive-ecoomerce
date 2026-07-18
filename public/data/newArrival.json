@@ -1,0 +1,81 @@
+{
+  "newArrivals": [
+    {
+      "id": 1,
+      "title": "Women's Collections",
+      "subtitle": "Featured woman collections that give you another vibe.",
+      "image": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Featured",
+      "badgeColor": "bg-red-500",
+      "brand": "GUCCI",
+      "category": "fashion"
+    },
+    {
+      "id": 2,
+      "title": "PlayStation 5",
+      "subtitle": "Block and White version of the PS5 coming out on sale.",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800",
+      "buttonText": "Shop Now",
+      "badge": "New Arrival",
+      "badgeColor": "bg-blue-500",
+      "brand": "PlayStation",
+      "category": "gaming"
+    },
+    {
+      "id": 3,
+      "title": "Amazon Wireless Speakers",
+      "subtitle": "Premium sound quality with wireless connectivity",
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Best Seller",
+      "badgeColor": "bg-green-500",
+      "brand": "Amazon",
+      "category": "audio"
+    },
+    {
+      "id": 4,
+      "title": "GUCCI INTENSE OUD EDP",
+      "subtitle": "Luxury fragrance for the modern individual",
+      "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Premium",
+      "badgeColor": "bg-purple-500",
+      "brand": "GUCCI",
+      "category": "perfume"
+    },
+    {
+      "id": 5,
+      "title": "GUCCI INTENSE OUD EDP",
+      "subtitle": "Luxury fragrance for the modern individual",
+      "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Premium",
+      "badgeColor": "bg-purple-500",
+      "brand": "GUCCI",
+      "category": "perfume"
+    },
+    {
+      "id": 6,
+      "title": "GUCCI INTENSE OUD EDP",
+      "subtitle": "Luxury fragrance for the modern individual",
+      "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Premium",
+      "badgeColor": "bg-purple-500",
+      "brand": "GUCCI",
+      "category": "perfume"
+    },
+    {
+      "id": 7,
+      "title": "GUCCI INTENSE OUD EDP",
+      "subtitle": "Luxury fragrance for the modern individual",
+      "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800",
+      "buttonText": "Shop Now",
+      "badge": "Premium",
+      "badgeColor": "bg-purple-500",
+      "brand": "GUCCI",
+      "category": "perfume"
+    }
+  ]
+}
