@@ -38,6 +38,7 @@ const Category = () => {
   const [error, setError] = useState(null);
   const { addToCart, isInCart } = useCart();
 
+  // Fetch categories
   useEffect(() => {
     const fetchCategories = async () => {
       try {
@@ -60,6 +61,7 @@ const Category = () => {
     fetchCategories();
   }, []);
 
+  // Fetch products
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -78,6 +80,7 @@ const Category = () => {
     fetchProducts();
   }, []);
 
+  // Update categories with actual product counts - FIXED
   useEffect(() => {
     if (Object.keys(products).length > 0 && categories.length > 0) {
       const updatedCategories = categories.map(category => {
@@ -88,10 +91,19 @@ const Category = () => {
           count: actualCount
         };
       });
-      setCategories(updatedCategories);
+      
+      // Only update if counts have changed
+      const hasCountChanged = categories.some((cat, index) => 
+        cat.count !== updatedCategories[index].count
+      );
+      
+      if (hasCountChanged) {
+        setCategories(updatedCategories);
+      }
     }
-  }, [products, categories]);
+  }, [products]); // Remove categories from dependency array
 
+  // Update products when category is selected
   useEffect(() => {
     if (selectedCategory && products) {
       const categoryKey = selectedCategory.name.toLowerCase().replace(/ & /g, '').replace(/ /g, '');

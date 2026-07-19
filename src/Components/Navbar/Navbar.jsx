@@ -277,14 +277,14 @@ const Navbar = () => {
               <div className="divider my-1"></div>
 
               <li>
-                <NavLink to="/auth/profile">
+                <NavLink to="/profile">
                   <FaUser />
                   My Profile
                 </NavLink>
               </li>
 
               <li>
-                <NavLink to="/auth/orders">
+                <NavLink to="/orders">
                   <FaBoxOpen />
                   My Orders
                 </NavLink>

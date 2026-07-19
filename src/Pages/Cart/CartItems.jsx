@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router'; // Changed from 'react-router' to 'react-router-dom'
 import { useCart } from '../../Context/CartContext';
 import { 
   FaTrash, 
@@ -15,6 +15,7 @@ import {
 import toast from 'react-hot-toast';
 
 const CartItems = () => {
+  const navigate = useNavigate(); // Added useNavigate hook
   const { 
     cartItems, 
     removeFromCart, 
@@ -80,6 +81,18 @@ const CartItems = () => {
       duration: 3000,
       position: 'top-right',
     });
+  };
+
+  // Handle checkout navigation
+  const handleCheckout = () => {
+    if (cartItems.length === 0) {
+      toast.error('Your cart is empty!', {
+        duration: 3000,
+        position: 'top-right',
+      });
+      return;
+    }
+    navigate('/checkout');
   };
 
   const formatPrice = (price) => {
@@ -299,7 +312,11 @@ const CartItems = () => {
               </div>
             </div>
 
-            <button className="btn btn-primary w-full mt-6 py-3 text-base">
+            {/* Updated Checkout Button */}
+            <button 
+              onClick={handleCheckout}
+              className="btn btn-primary w-full mt-6 py-3 text-base"
+            >
               <FaCreditCard className="mr-2" /> Proceed to Checkout
             </button>
 

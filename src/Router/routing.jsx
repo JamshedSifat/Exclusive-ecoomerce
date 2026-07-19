@@ -6,9 +6,13 @@ import Login from "../Auth/Login/Login";
 import Register from "../Auth/Register/Register";
 import MyProfile from "../Auth/Profile/MyProfile";
 import MyOrders from "../Auth/Orders/MyOrders";
-import Contact from "../Pages/Contact/Contact"; // Fixed: Capitalized
+
+
 import CartItems from "../Pages/Cart/CartItems";
 import Category from "../Components/categories/category";
+import CheckOut from "../Pages/Cart/CheckOut/CheckOut";
+import placeOrder from "../Pages/Cart/CheckOut/placeOrder";
+import Contact from "../Pages/Contact/contact";
 
 
 export const router = createBrowserRouter([
@@ -22,12 +26,28 @@ export const router = createBrowserRouter([
       },
       {
         path: "contact",
-        Component: Contact,
+        Component:Contact,
+      },
+      {
+        path: "profile",
+        Component: MyProfile,
+      },
+      {
+        path: "orders",
+        Component:MyOrders,
       },
       {
         path: "cart",
         Component: CartItems,
       },
+      {
+        path:'checkout',
+        Component:CheckOut
+      },
+      {
+  path: "place-order",
+  Component: placeOrder,
+},
       {
         path: "category", 
         Component: Category,
@@ -55,14 +75,9 @@ export const router = createBrowserRouter([
         path: "register",
         Component: Register,
       },
-      {
-        path: "profile",
-        Component: MyProfile,
-      },
-      {
-        path: "orders",
-        Component: MyOrders,
-      },
+      
+      
+      
     ],
   },
 ]);
